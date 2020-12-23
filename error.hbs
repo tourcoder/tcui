@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <title>{{message}}</title>
+        <meta name="MobileOptimized" content="320">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+        <style>
+            body {
+                margin: 50px 0;
+                text-align: center;
+            }
+
+            img {
+                max-width: 200px;
+            }
+
+            h1 {
+                font-size: 100px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                color: #616161;
+                margin: 0;
+            }
+
+            h2 {
+                font-family: 'Open Sans', sans-serif;
+                color: #757575;
+                font-weight: 300;
+                margin-top: 0;
+                font-size: 24px;
+            }
+            #home-link {
+                font-size: 19px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: normal;
+                color: #2196F3;
+            }
+
+            @media only screen and (max-width:500px) {
+                body {
+                    margin-top: 30px;
+                }
+
+                img {
+                    max-width: 130px;
+                }
+
+                h1 {
+                    font-size: 70px;
+                }
+
+                h2, #home-link {
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>{{code}}</h1>
+        <h2>{{message}}</h2>
+        <p><a id="home-link" href="{{@blog.url}}">Back to the home page?</a></p>
+        <div>
+            <p><b>非常好用的服务</b></p>
+            <p><a href="https://www.vultr.com/?ref=6870749" target="_blank">Vultr</a> <span>性价比较高的 VPS，到国内延迟比较低，点左侧我的链接可以获得奖励。</span></p>
+            <p><a href="https://g.co/fi/r/VK3E0V" target="_blank">Google Fi</a> <span>通过该电话卡上网，可以无障碍访问被墙的网站。Google Fi 的 SIM 卡只能寄到美国，国内可以用转运服务。点左侧我的链接可以获取 20 美元。</span></p>
+            <p><a href="https://m.do.co/c/f9093f390863" target="_blank">Digital Ocean</a> <span>面向开发者的 VPS，用左侧我的链接可以获的 100 美元。</span></p>
+            <p><a href="https://windscribe.com/?friend=tf9274ho" target="_blank">Windscribe</a> <span>非常好用的 VPN 服务，支持 Netflix、静态 IP、端口映射、服务端广告过滤等功能，外贸人员和程序员使用比较多。</span></p>
+            <p><a href="https://www.fastmail.com/?STKI=21172056" target="_blank">Fastmail</a> <span> 非常棒的邮箱，安全好用，点击左侧我的链接可以获取10%的费用减免。</span></p>
+            <p><a href="https://go.setapp.com/invite/tourcoder" target="_blank">Setapp</a> <span> 一个个的买 App 是不是太贵了？可以换个订阅的方式，点击左侧卧的链接有奖励。</span></p>
+        </div>
+    </body>
+</html>

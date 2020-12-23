@@ -1,0 +1,39 @@
+{
+    "name": "tcui4",
+    "description": "TCUI for Ghost.",
+    "version": "4.0.0",
+    "engines": {
+        "ghost": "^2.2.0"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "tourcoder",
+        "email": "hb@tourcoder.com",
+        "url": "https://tourcoder.com"
+    },
+    "gpm": {
+        "type": "theme",
+        "categories": [
+            "Minimalist",
+            "Clean",
+            "Minimal",
+            "Personal Blogs",
+            "Responsive",
+            "Publication",
+            "Blog"
+        ]
+    },
+    "keywords": [
+        "ghost-theme",
+        "ghost",
+        "theme",
+        "boo",
+        "minimalist",
+        "clean",
+        "blog",
+        "responsive"
+    ],
+    "config": {
+        "posts_per_page": 20
+    }
+}
